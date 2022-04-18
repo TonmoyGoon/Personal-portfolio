@@ -21,11 +21,11 @@ I'm a **Full Stack Web Developer speciallized on MERN stack**. I have been worki
 
 💬 Ask me about my carrer
 
-📫 How to reach me any kind of social media as your preference
+📫 How to reach me ? => Any kind of social media as your preference
 
-😄 Pronouns...
+😄 Pronouns - Goon
 
-⚡️ Fun fact...
+⚡️ Fun fact - I am a very good listener
 
 
 ## Features
