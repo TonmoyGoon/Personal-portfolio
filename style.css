@@ -875,9 +875,7 @@ img {
     }
 
     #contact .contact-item .icon {
-        height: 60px;
-        width: 60px;
-        margin: auto;
+        display: none;
     }
 
     #contact .contact-item .icon img {
@@ -885,7 +883,7 @@ img {
     }
 
     #contact .contact-item .contact-info {
-        text-align: left;
+        text-align: center;
     }
 }
 
@@ -936,6 +934,16 @@ img {
     #contact .contact-item {
         height: 150px;
         margin-top: 5px;
+    }
+
+    #contact .contact-item .contact-info {
+        text-align: right;
+    }
+
+    #contact .contact-item .icon {
+        display: block;
+        padding-left: 0;
+        margin-left: 0;
     }
 
     #contact .get-in-touch input {
