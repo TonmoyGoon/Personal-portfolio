@@ -398,6 +398,52 @@ img {
     text-align: left;
 }
 
+
+/* Skills section */
+
+#skills .skills .sub-header {
+    display: flex;
+    font-size: 2.5rem;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    background-color: aqua;
+    margin: 30px 15px;
+    height: 75px;
+}
+
+#skills .skills .inner-part {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px 0;
+    width: 100%;
+}
+
+#skills .skills .inner-part img {
+    width: 80px;
+    padding: 8px;
+    display: flex;
+}
+
+#skills .skills .inner-part .single-skill {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    flex-basis: 25%;
+    margin-bottom: 20px;
+}
+
+#skills .skills .inner-part .single-skill p {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+
 /* Projects section */
 
 #projects .projects {
