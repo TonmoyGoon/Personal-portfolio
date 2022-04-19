@@ -464,69 +464,108 @@ img {
     flex-direction: column;
 }
 
-#projects .project-item {
+#projects .projects {
+    flex-direction: column;
+    text-align: center;
+    max-width: 1500px;
+    padding: 100px 0;
+    margin: 30px auto;
+}
+
+#projects .project-mainpart {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-    width: 80%;
-    margin: 20px auto;
-    overflow: hidden;
-    border-radius: 10px;
+    flex-wrap: wrap;
+    margin-top: 50px;
 }
 
-#projects .project-info {
-    padding: 30px;
-    flex-basis: 50%;
-    background-color: white;
-    height: 100%;
+#projects .project-item {
+    flex-basis: 80%;
     display: flex;
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
-    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
-    color: white;
-}
-
-#projects .project-info h1 {
-    font-size: 4rem;
-    font-weight: 500;
-}
-
-#projects .project-info h2 {
-    font-size: 1.8rem;
-    font-weight: 500;
-    margin-top: 10px;
-}
-
-#projects .project-info p {
-    color: white;
-}
-
-#projects .project-img {
-    flex-basis: 50%;
-    height: 300px;
-    overflow: hidden;
+    padding: 30px;
+    border-radius: 10px;
+    /* background-image: url("./img/img-1.png"); */
+    background-size: cover;
+    margin: 10px 5%;
     position: relative;
+    z-index: 1;
+    overflow: hidden;
 }
 
-#projects .project-img:after {
+#projects .project-item:nth-of-type(1) {
+    background-image: url("./img/yelpcamp.png");
+}
+
+#projects .project-item:nth-of-type(2) {
+    background-image: url("./img/studentDB.png");
+}
+
+#projects .project-item:nth-of-type(3) {
+    background-image: url("./img/game.png");
+}
+
+#projects .project-item:nth-of-type(4) {
+    background-image: url("./img/yelpcamp.png");
+}
+
+#projects .project-item:nth-of-type(5) {
+    background-image: url("./img/yelpcamp.png");
+}
+
+#projects .project-item:nth-of-type(6) {
+    background-image: url("./img/yelpcamp.png");
+}
+
+#projects .btn-container {
+    display: flex;
+    width: 100%;
+}
+
+#projects a {
+    display: flex;
+    width: 100%;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 10px;
+    margin: 20px 8px;
+    justify-content: center;
+    max-width: 220px;
+    /* color: blue;
+    border: 2px solid blue; */
+}
+
+#projects .project-item::after {
     content: "";
     position: absolute;
-    left: 0;
     top: 0;
+    left: 0;
     height: 100%;
     width: 100%;
     background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
-    opacity: .7;
+    opacity: .9;
+    z-index: -1;
 }
 
-#projects .project-img img {
-    transition: .3s ease transform;
+#projects .project-mainpart .icon {
+    height: 80px;
+    width: 80px;
+    margin-bottom: 20px;
 }
 
-#projects .project-item:hover .project-img img {
-    transform: scale(1.1);
+#projects .project-item h2 {
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+#projects .project-item p {
+    color: white;
+    text-align: left;
 }
 
 
@@ -849,7 +888,15 @@ img {
     }
 
     /* projects */
-    #projects .project-item {
+
+
+    #projects .project-mainpart .project-item {
+        flex-basis: 45%;
+        margin: 1.5%;
+    }
+
+
+    /* #projects .project-item {
         flex-direction: row;
         height: 350px;
         margin: 0;
@@ -867,7 +914,7 @@ img {
 
     #projects .all-projects .project-img {
         height: 100%;
-    }
+    } */
 
     /* About */
     #about .about {
@@ -967,10 +1014,12 @@ img {
         margin: 1.5%;
     }
 
-    #services .service-top {
-        width: 600px;
-        text-align: center;
+    #projects .project-mainpart .project-item {
+        flex-basis: 30%;
+        margin: 1.5%;
     }
+
+
 
     #contact .contact-items {
         margin-right: 100px;
