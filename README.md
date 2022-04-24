@@ -20,11 +20,7 @@ I'm a **Full Stack Web Developer speciallized on MERN stack**. I have been worki
 ## Other Common Github Profile Sections
 👩‍💻 I'm currently working on a food delivery project.
 
-🧠 I'm currently learning React JS
-
-👯‍♀️ I'm looking to collaborate on any projects I got chance
-
-🤔 I'm looking for help with 
+🧠 I'm currently learning React JS 
 
 💬 Ask me about my carrer
 
