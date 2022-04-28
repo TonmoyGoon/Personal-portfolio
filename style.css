@@ -443,6 +443,11 @@ img {
     padding: 0;
 }
 
+#skills .skills .inner-part .single-skill img {
+    width: 70px;
+}
+
+
 
 /* Projects section */
 
@@ -627,11 +632,6 @@ img {
 
 /* Contact section */
 
-/* #contact{
-    display: flex;
-    flex-direction: column;
-} */
-
 #contact .contact {
     flex-direction: column;
     max-width: 1200px;
@@ -639,7 +639,8 @@ img {
 }
 
 #contact .contact-items {
-    width: 400px;
+    width: 100%;
+    max-width: 400px;
 }
 
 #contact .contact-item {
@@ -887,34 +888,17 @@ img {
         margin: 1.5%;
     }
 
-    /* projects */
+    /* skills */
+    #skills .skills .inner-part .single-skill img {
+        width: 85px;
+    }
 
+    /* projects */
 
     #projects .project-mainpart .project-item {
         flex-basis: 45%;
         margin: 1.5%;
     }
-
-
-    /* #projects .project-item {
-        flex-direction: row;
-        height: 350px;
-        margin: 0;
-        width: 100%;
-        border-radius: 0;
-    }
-
-    #projects .project-item:nth-child(even) {
-        flex-direction: row-reverse;
-    }
-
-    #projects .all-projects .project-info {
-        height: 100%;
-    }
-
-    #projects .all-projects .project-img {
-        height: 100%;
-    } */
 
     /* About */
     #about .about {
